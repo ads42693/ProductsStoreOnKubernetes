@@ -12,7 +12,6 @@ spec:
       labels:
         app: mssql
     spec:
-      progressDeadlineSeconds: 600
       terminationGracePeriodSeconds: 10
       containers:
       - name: mssql
