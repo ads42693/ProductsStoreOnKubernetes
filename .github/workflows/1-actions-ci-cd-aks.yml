@@ -14,8 +14,8 @@ jobs:
   build-deploy-aks:
     runs-on: ubuntu-latest
     env:
-      DOCKER_REPOSITORY: houssemdocker # name of Docker Hub ID
-      IMAGE_NAME: webapp
+      DOCKER_REPOSITORY: ads42693 # name of Docker Hub ID
+      IMAGE_NAME: ads-lab
       IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
       
       CLUSTER_NAME: aks-cluster
