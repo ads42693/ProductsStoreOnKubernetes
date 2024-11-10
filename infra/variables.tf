@@ -43,5 +43,5 @@ variable "resource_group_name" {
 }
 
 variable "location" {
-  default = "canadacentral"
+  default = "westeurope"
 }
